@@ -1,2 +1,0 @@
-/usr/bin/ar qc libstina-parser.a "CMakeFiles/stina-parser.dir/src/stina.cpp.o"
-/usr/bin/ranlib libstina-parser.a
