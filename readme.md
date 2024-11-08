@@ -21,7 +21,7 @@
 !"submodules/server.stn"
 
 build {
-    mode="debug"
+    mode=server.port == 80 ? "release" : "debug"
 }
 
 if server.port == 80 {
@@ -29,4 +29,11 @@ if server.port == 80 {
 } else {
     build.mode="debug"
 }
+
 ```
+
+## Program structure
+- Parser: Dynamic and Static parsing
+- Serializers
+- Lib for loading config
+- Exe for getting config values
