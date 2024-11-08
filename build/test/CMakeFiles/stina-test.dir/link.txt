@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++20 -O3 -rdynamic "CMakeFiles/stina-test.dir/src/main.cpp.o" -o stina-test  ../stina-parser/libstina-parser.a
