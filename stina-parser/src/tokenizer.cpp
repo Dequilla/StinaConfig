@@ -2,6 +2,8 @@
 
 namespace stina
 {
+    
+
     std::vector<token::Token> tokenize(std::string data)
     {
         std::string stringAccumilator = "";
